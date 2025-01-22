@@ -1,3 +1,5 @@
-Record=TopLevelDocument|FileName=DDR3.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=DDR3.SchDoc|FileName=FPGA.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=DDR3.SchDoc|FileName=PWR.SchDoc|SheetNumber=2
+Record=TopLevelDocument|FileName=ALIMENTATION_PLEIADES.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=ALIMENTATION_PLEIADES.SchDoc|FileName=CONTROLE_MOTEUR_PLEIADES.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=ALIMENTATION_PLEIADES.SchDoc|FileName=FPGA_PLEIADES.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=ALIMENTATION_PLEIADES.SchDoc|FileName=PROG_PLEIADES.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=ALIMENTATION_PLEIADES.SchDoc|FileName=SDRAM_PLEIADES.SchDoc|SheetNumber=1
