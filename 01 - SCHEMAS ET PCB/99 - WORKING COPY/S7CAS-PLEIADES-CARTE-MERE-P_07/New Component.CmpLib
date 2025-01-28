@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<TComponentSet id="0" CurrentRevColumnWidth="100" NameColumnWidth="300" NextRevColumnWidth="100">
+  <VaultGUID>F05D80FE-47C0-4C0C-AEFD-59CD741ADDB8</VaultGUID>
+  <VaultName>François Major</VaultName>
+  <RequiredParameters>
+    <TRequiredParameter id="1" ColumnWidth="100">
+      <HRID>Comment</HRID>
+      <Visible>true</Visible>
+      <IsRequired>false</IsRequired>
+      <DataType>Text</DataType>
+      <ParamType>4884412E-AAD1-4E69-922A-23C1C75250B1</ParamType>
+      <DefaultValue></DefaultValue>
+      <IsReadOnly>false</IsReadOnly>
+    </TRequiredParameter>
+    <TRequiredParameter id="2" ColumnWidth="100">
+      <HRID>Description</HRID>
+      <Visible>true</Visible>
+      <IsRequired>false</IsRequired>
+      <DataType>Text</DataType>
+      <ParamType>4884412E-AAD1-4E69-922A-23C1C75250B1</ParamType>
+      <DefaultValue></DefaultValue>
+      <IsReadOnly>false</IsReadOnly>
+    </TRequiredParameter>
+  </RequiredParameters>
+  <RequiredModels>
+    <TRequiredModel id="3" ColumnWidth="100">
+      <HRID>PCBLIB</HRID>
+      <Visible>true</Visible>
+      <ModelKind>PCBLIB</ModelKind>
+      <IsRequired>false</IsRequired>
+      <FromTemplate>false</FromTemplate>
+      <IsReadOnly>false</IsReadOnly>
+    </TRequiredModel>
+    <TRequiredModel id="4" ColumnWidth="100">
+      <HRID>SCHLIB</HRID>
+      <Visible>true</Visible>
+      <ModelKind>SCHLIB</ModelKind>
+      <IsRequired>false</IsRequired>
+      <FromTemplate>false</FromTemplate>
+      <IsReadOnly>false</IsReadOnly>
+    </TRequiredModel>
+  </RequiredModels>
+  <RequiredComponentTypes ColumnWidth="100">
+    <Visible>true</Visible>
+    <IsRequired>false</IsRequired>
+    <DataType>ComponentType</DataType>
+    <IsReadOnly>false</IsReadOnly>
+  </RequiredComponentTypes>
+  <ModelLinks>
+    <TModelLink id="5">
+      <VaultGUID>F05D80FE-47C0-4C0C-AEFD-59CD741ADDB8</VaultGUID>
+      <ModelKind>SCHLIB</ModelKind>
+      <ModelModified>false</ModelModified>
+      <FromTemplate>false</FromTemplate>
+      <AltPath>C:\ProgramData\Altium\Altium Designer {215D43BF-0D99-4930-B0D2-016E0262C33B}\VaultEditCache\E6CDF35E-95F6-410A-AA90-B4647A333771\Released\1.SchLib</AltPath>
+    </TModelLink>
+  </ModelLinks>
+  <PartChoiceListLinks StateIndex="2">
+    <ComponentSet href="#0"/>
+    <ItemNamingScheme>PCL-{00000}</ItemNamingScheme>
+  </PartChoiceListLinks>
+  <RequiredPartChoices/>
+  <TopGroup id="6" StateIndex="2" Collapsed="false">
+    <Parameters/>
+    <ModelChoices/>
+    <ComponentTypes/>
+    <ComponentSet href="#0"/>
+    <ItemNamingScheme>CMP-{00000}</ItemNamingScheme>
+    <Groups>
+      <TGroup id="7" StateIndex="2" Collapsed="false">
+        <ParentGroup href="#6"/>
+        <Parameters/>
+        <ModelChoices/>
+        <ComponentTypes/>
+        <ComponentSet href="#0"/>
+        <Groups/>
+        <ComponentDefinitions>
+          <TComponentDefinition StateIndex="0">
+            <ParentGroup href="#7"/>
+            <Parameters>
+              <TParameter>
+                <RequiredParameter href="#1"/>
+                <Value>XCF32P</Value>
+                <RealValue>NaN</RealValue>
+              </TParameter>
+              <TParameter>
+                <RequiredParameter href="#2"/>
+                <Value>flash memory</Value>
+                <RealValue>NaN</RealValue>
+              </TParameter>
+            </Parameters>
+            <ModelChoices>
+              <TModelChoice>
+                <RequiredModel href="#4"/>
+                <ModelLink href="#5"/>
+              </TModelChoice>
+            </ModelChoices>
+            <ComponentTypes/>
+            <ItemHRID>CMP-00001</ItemHRID>
+            <ReservationResult>rsReserved</ReservationResult>
+            <PartChoiceDatas/>
+            <PartChoiceListChanged>false</PartChoiceListChanged>
+            <OriginalPartChoiceDatas/>
+            <OriginalPartChoiceListLoaded>false</OriginalPartChoiceListLoaded>
+            <CanChangePartChoices>true</CanChangePartChoices>
+          </TComponentDefinition>
+        </ComponentDefinitions>
+        <IsDefaultGroup>true</IsDefaultGroup>
+      </TGroup>
+    </Groups>
+    <ComponentDefinitions/>
+    <IsDefaultGroup>false</IsDefaultGroup>
+  </TopGroup>
+  <ShowReleaseState>false</ShowReleaseState>
+  <ItemNamingSchemeMappings>
+    <TItemNamingSchemeMapping>
+      <SimpleNamingScheme>CMP-{00000}</SimpleNamingScheme>
+      <InitialIndex>0</InitialIndex>
+    </TItemNamingSchemeMapping>
+  </ItemNamingSchemeMappings>
+  <DisabledPartChoices>false</DisabledPartChoices>
+  <CanChangePartChoices>true</CanChangePartChoices>
+  <LifeCycleDefinitionGUID>C4BB0CA7-F885-4689-95FC-1A5555D20C88</LifeCycleDefinitionGUID>
+  <RevisionNamingSchemeGUID>E9197BDA-E9EF-4360-8F74-E72904E1C0EE</RevisionNamingSchemeGUID>
+</TComponentSet>
